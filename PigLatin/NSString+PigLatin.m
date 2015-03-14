@@ -38,17 +38,22 @@
         
         NSRange range = [word rangeOfCharacterFromSet:vowelSet];
         
-        NSUInteger startLength = range.location ;
-        NSRange startRange = NSMakeRange(0, startLength);
-        NSString *start = [word substringWithRange:startRange];
-        
-        NSUInteger endLength = word.length - range.location;
-        NSRange endRange = NSMakeRange(range.location, endLength);
-        NSString *end = [word substringWithRange:endRange];
-        
-        NSString *outputWord = [NSString stringWithFormat:@"%@%@ay", end, start];
-        
-        [outputWords addObject:outputWord];
+        if (range.location == 0) {
+            NSString *outputWord = [NSString stringWithFormat:@"%@way", word];
+            [outputWords addObject:outputWord];
+        }
+        else {
+            NSUInteger startLength = range.location ;
+            NSRange startRange = NSMakeRange(0, startLength);
+            NSString *start = [word substringWithRange:startRange];
+            
+            NSUInteger endLength = word.length - range.location;
+            NSRange endRange = NSMakeRange(range.location, endLength);
+            NSString *end = [word substringWithRange:endRange];
+            
+            NSString *outputWord = [NSString stringWithFormat:@"%@%@ay", end, start];
+            [outputWords addObject:outputWord];
+        }
     }
     //C. print the pigLatinized input
     //

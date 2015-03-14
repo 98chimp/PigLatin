@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F0FDB31-2024-49AC-9C53-DCE9B8E7B609</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PigLatin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>005F0E998EE666A4C122FBD40569208588D89534</key>
+		<string>https://github.com/98chimp/PigLatin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PigLatin.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>005F0E998EE666A4C122FBD40569208588D89534</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/98chimp/PigLatin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>005F0E998EE666A4C122FBD40569208588D89534</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>005F0E998EE666A4C122FBD40569208588D89534</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PigLatin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
