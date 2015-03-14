@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+PigLatin.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        printf("Please enter a phrase to be translated to piglatin: ");
+        char str[100];
+        fgets (str, 100, stdin);
+        
+        NSString *input = [[NSString alloc] initWithUTF8String:str];
+        input = [input stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        NSString *output = [input stringByPigLatinization];
+        
+        NSLog(@"%@!", output);
     }
     return 0;
 }
